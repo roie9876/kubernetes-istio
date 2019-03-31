@@ -19,7 +19,9 @@ metadata:
   name: myapp
 spec:
   host: myapp
-  subsets:
+  trafficPolicy:
+     tls:
+       mode: ISTIO_MUTUAL
   - name: v1
     labels:
       version: v1
