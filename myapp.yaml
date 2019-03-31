@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: myapp:v1
+        image: roie9876/myapp:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: myapp:v2
+        image: roie9876/myapp:v2
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
